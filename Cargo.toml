@@ -1,0 +1,11 @@
+[package]
+name = "horizon-mod-accurate-block-placement"
+version = "1.0.0"
+edition = "2024"
+license = "MIT"
+publish = false
+description = "Accurate Block Placement for Horizon, a native mod: hold right click and every new block you look at is placed at once."
+
+# The mod's logic and its tests: the same file the bundle adds to the game.
+[lib]
+path = "mixins/accurate_block_placement/runtime.rs"
